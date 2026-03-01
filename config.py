@@ -2,14 +2,14 @@ import os
 
 class Config(object):
     # --- API Details (Apni details bharein) ---
-    API_ID = int(os.environ.get("API_ID", "12345"))
-    API_HASH = os.environ.get("API_HASH", "your_api_hash")
+    API_ID = int(os.environ.get("API_ID", "26910777"))
+    API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
     
     # --- Admin & Channels ---
-    OWNER_ID = int(os.environ.get("OWNER_ID", "12345678"))
-    FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", "-100...")) 
-    DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100..."))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5232142502"))
+    FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", "-1002730333831")) 
+    DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002605527708"))
     FSUB_ON = True 
 
     # --- Links ---
