@@ -1,4 +1,6 @@
 pyrogram
 tgcrypto
 motor
+pymongo[srv]
 flask
+asyncio
